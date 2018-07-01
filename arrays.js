@@ -4,8 +4,6 @@ function addElementToBeginningOfArray(array, element){
   
   const moreArray =[element, ...array]
   
-  array = [];
-  
   array.unshift(element);
   
   return moreArray;
